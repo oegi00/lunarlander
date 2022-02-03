@@ -1,10 +1,9 @@
 import turtle, math, random
 class Lander(turtle.Turtle):
   '''
-Purpose: (What does an object of this class represent?) The lander which is a character in the game which is a turtle object
-Instance variables: (What are the instance variables for this class,
-and what does each represent in a few words?) start_dx, start_dy, start_vx, start_vy, which rep. the (x,y) and velocity in x and y direction of the start of the lander
-Methods: (What methods does this class have, and what does each do in a few words?) init() which initializes variables, move() which changes the landers position, thrust() which is for an up button event, moves the lander up, turnright() and turnleft() is to turn the lander direction
+Purpose:  The lander which is a character in the game which is a turtle object
+Instance variables:  start_dx, start_dy, start_vx, start_vy, which rep. the (x,y) and velocity in x and y direction of the start of the lander
+Methods: init() which initializes variables, move() which changes the landers position, thrust() which is for an up button event, moves the lander up, turnright() and turnleft() is to turn the lander direction
   '''
   def __init__(self, start_dx, start_dy, start_vx, start_vy):
      turtle.Turtle.__init__(self)
